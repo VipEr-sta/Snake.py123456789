@@ -22,7 +22,7 @@ high_score = 0
 
 wn = turtle.Screen()
 
-wn.title("Snake by Elijah")
+wn.title("Snake by Elijah © GELU Productions")
 
 wn.bgcolor("green")
 
