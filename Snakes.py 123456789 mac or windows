@@ -26,7 +26,7 @@ wn.title("Snake by Elijah © GELU Productions")
 
 wn.bgcolor("green")
 
-wn.setup(width=100000, height=100000)
+wn.setup(width=1000, height=1000)
 
 wn.tracer(0) # Turns off the screen updates
 
@@ -180,7 +180,7 @@ while True:
 
     # Check for a collision with the border
 
-    if head.xcor()>630 or head.xcor()<-630 or head.ycor()>630 or head.ycor()<-630:
+    if head.xcor()>290 or head.xcor()<-290 or head.ycor()>290 or head.ycor()<-290:
 
         time.sleep(1)
 
@@ -228,9 +228,9 @@ while True:
 
         # Move the Food to a random spot on the screen
 
-        x = random.randint(-300, 300)
+        x = random.randint(-290, 290)
 
-        y = random.randint(-300, 300)
+        y = random.randint(-290, 290)
 
         food.goto(x,y)
 
