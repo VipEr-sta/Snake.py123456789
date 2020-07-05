@@ -26,7 +26,7 @@ wn.title("Snake by Elijah © GELU Productions")
 
 wn.bgcolor("green")
 
-wn.setup(width=1000, height=1000)
+wn.setup(width=600, height=600)
 
 wn.tracer(0) # Turns off the screen updates
 
