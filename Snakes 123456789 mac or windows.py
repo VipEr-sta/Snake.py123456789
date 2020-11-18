@@ -87,7 +87,7 @@ pen.goto(0, 260)
 pen.write("Score: 0 High Score: 0", align="center", font=("Courier", 24, "normal"))
 
 
-
+# Code must be refactored here
 # Function
 
 def go_up():
