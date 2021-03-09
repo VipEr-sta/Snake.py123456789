@@ -1,0 +1,1 @@
+"C:\Users\elija\AppData\Local\Programs\Python\Python38-32\python.exe" "C:\Users\elija\Documents\Snake.py123456789\Snake.py"
